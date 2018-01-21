@@ -1,0 +1,3 @@
+rootProject.name = 'bhagavanrajupalem'
+include 'brpalem-web'
+

@@ -5,7 +5,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.src.nvpalem.api.IRetrieveContentApi;
-import org.src.nvpalem.model.Content;
 import org.src.nvpalem.request.RetrieveContentRequest;
 import org.src.nvpalem.response.RetrieveContentResponse;
 import org.src.nvpalem.service.IRetrieveContentService;

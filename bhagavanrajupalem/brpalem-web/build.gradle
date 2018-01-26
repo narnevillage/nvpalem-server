@@ -12,6 +12,7 @@ buildscript {
 
 apply plugin: 'groovy'
 apply plugin: 'eclipse'
+apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
 group = 'org.srsct.nvpalem'
@@ -24,7 +25,9 @@ repositories {
 
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-web'){
+		exclude module: "logback-classic"
+	}
 	compile('org.codehaus.groovy:groovy')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

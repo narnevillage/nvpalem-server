@@ -1,3 +1,4 @@
 rootProject.name = 'bhagavanrajupalem'
 include 'brpalem-web'
+include 'brpalem-rest'
 
